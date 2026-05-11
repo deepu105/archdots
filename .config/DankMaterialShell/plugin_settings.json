@@ -1,0 +1,76 @@
+{
+  "dankActions": {
+    "enabled": true,
+    "variants": [
+      {
+        "icon": "update",
+        "displayText": "",
+        "displayCommand": "$HOME/scripts/systemupdate.sh",
+        "clickCommand": "$HOME/scripts/systemupdate.sh up",
+        "middleClickCommand": "",
+        "rightClickCommand": "$HOME/scripts/systemupdate.sh",
+        "updateInterval": 600,
+        "showIcon": true,
+        "showText": true,
+        "id": "variant_1764428437643",
+        "name": "System Update"
+      }
+    ]
+  },
+  "dankBatteryAlerts": {
+    "enabled": true
+  },
+  "emojiLauncher": {
+    "enabled": true
+  },
+  "displayMirror": {
+    "enabled": true
+  },
+  "dankDesktopWeather": {
+    "enabled": false
+  },
+  "mediaPlayer": {
+    "enabled": false
+  },
+  "dankLauncherKeys": {
+    "enabled": true,
+    "noTrigger": false
+  },
+  "asusControlCenter": {
+    "enabled": true
+  },
+  "dankBitwarden": {
+    "enabled": false,
+    "trigger": "[",
+    "copyToClipboard": true
+  },
+  "amdGpuMonitor": {
+    "enabled": false
+  },
+  "niriWindows": {
+    "enabled": true,
+    "noTrigger": false,
+    "trigger": "|"
+  },
+  "clipboardPlus": {
+    "enabled": false,
+    "fullscreenMode": false,
+    "backgroundOpacity": 25,
+    "tabOrder": "clipboard,search,category,pinned,todo",
+    "tabOrderEnabled": "clipboard,search,category,pinned,todo",
+    "panelOpacityPinned": 100,
+    "notecardsEnabled": false
+  },
+  "dmsScreenshot": {
+    "enabled": true,
+    "quality": 90,
+    "format": "jpg",
+    "mode": "full"
+  },
+  "screenRecorder": {
+    "enabled": true
+  },
+  "dankTodo": {
+    "enabled": true
+  }
+}

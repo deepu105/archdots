@@ -1,0 +1,28 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Never commit local secrets or generated state.
+.env
+.env.*
+!.env.example
+.secrets/
+.ssh/
+.gnupg/
+.local/
+.cache/
+.config/opencode/auth.json
+.config/opencode/session*
+.config/opencode/*.log
+.config/DankMaterialShell/.firstlaunch
+.config/DankMaterialShell/.changelog-*
+
+# Do not commit model files.
+*.gguf
+*.safetensors
+*.bin
+models/
+Models/
