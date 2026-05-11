@@ -104,7 +104,7 @@ scripts/llama_server.sh
 The server listens on:
 
 ```text
-http://127.0.0.1:8080/v1
+http://127.0.0.1:18080/v1
 ```
 
 OpenCode uses that endpoint from `.config/opencode/opencode.json`.

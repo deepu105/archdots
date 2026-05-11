@@ -5,7 +5,7 @@ llama_cpp_repo="${LLAMA_CPP_REPO:-$HOME/Workspace/llms/llama.cpp}"
 llama_server="${LLAMA_SERVER_BIN:-$llama_cpp_repo/build-hip/bin/llama-server}"
 model_root="${LLAMA_MODEL_ROOT:-$HOME/Models}"
 host="${LLAMA_HOST:-127.0.0.1}"
-port="${LLAMA_PORT:-8080}"
+port="${LLAMA_PORT:-18080}"
 state_dir="${XDG_CACHE_HOME:-$HOME/.cache}/llama-server"
 state_file="$state_dir/last.conf"
 

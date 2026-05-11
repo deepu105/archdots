@@ -6,7 +6,7 @@ export VISUAL=nvim
 export LLAMA_CPP_REPO="${LLAMA_CPP_REPO:-$HOME/Workspace/llms/llama.cpp}"
 export LLAMA_MODEL_ROOT="${LLAMA_MODEL_ROOT:-$HOME/Models}"
 export LLAMA_HOST="${LLAMA_HOST:-127.0.0.1}"
-export LLAMA_PORT="${LLAMA_PORT:-8080}"
+export LLAMA_PORT="${LLAMA_PORT:-18080}"
 export LLAMA_AMDGPU_TARGETS="${LLAMA_AMDGPU_TARGETS:-gfx1151}"
 
 export OLLAMA_HOST="${OLLAMA_HOST:-localhost}"
